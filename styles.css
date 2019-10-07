@@ -1,1 +1,93 @@
-/* CSS code  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------NAVBAR------------*/
+
+#navbar,
+#bluenavbar {
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#navbar {
+    background-color: #10243B;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 90%;
+}
+
+#navbar li {
+    display: inline;
+    color: white;
+    margin: 7px;
+    text-transform: uppercase;
+}
+
+#navbar li:nth-child(8) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#navbar li:nth-child(n + 8) {
+    color: #a3dde8;
+    font-weight: lighter !important;
+    font-size: 0.8em;
+}
+
+#bluenavbar {
+    background-color: #0088cc;
+    width: 10%;
+    height: 49px;
+}
+
+#bluenavbar h4 {
+    display: inline;
+    margin: 1em;
+    color: white;
+}
+
+#bluenavbar img {
+    display: inline;
+    margin: 0.9em 1.9em;
+}
+
+#bluenavbar span {
+    background-color: white;
+    height: 49px;
+    width: 3px;
+}
+
+.left {
+    float: left;
+}
+
+/*------------HERO SECTION------------*/
+
+#herosection {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#herocontent {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    display: inline;
+}
+
+#herotext {
+    color: white;
+    margin-top: 50px;
+}
+
+#herotext h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
