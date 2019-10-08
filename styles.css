@@ -91,3 +91,52 @@
 #herotext h1 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+/*------------EXPLORE SECTION------------*/
+
+#exploresection {
+    width: 100%;
+    background-color: #10243B;
+}
+
+#exploreheader {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+#explorecontent {
+    width: 100%;
+    height: 330px;
+}
+
+.explorebox {
+    width: 25%;
+    height: 328px;
+}
+
+#patriotplaza {
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#colleges {
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#ccnn {
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ccnnlive {
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: cover;
+}
